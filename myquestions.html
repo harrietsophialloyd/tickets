@@ -4,27 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Questions page</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="style.css">
 
-</head>
 
 <body>
+    <div class=container>
 
-    <header id="header">
-        <img src="images/Logo2.jpg" alt="Logo" id="logo" width="10%" />
-        <section id="header-right">
-            <button class="navbutton" onclick="document.location='index.html'">Home</button>
-            <button class="navbutton" onclick="document.location='myquestions.html'">My Questions</button>
-            <button class="navbutton" onclick="document.location='help.html'">Help</button>
-            <button class="navbutton" onclick="document.location='logout.html'">Log Out</button>
-        </section>
-    </header>
+        <header id="header">
 
-    <section>
+            <img src="images/Logo2.png" class="bordered image" alt="Logo" id="logo" width="10%" />
+            <section id="header-right">
+                
+            <button class="navbutton"> <a href="index.html" style="text-decoration: none;"> Home </a> </button>
+            <button class="navbutton"> <a href="myquestions.html" style="text-decoration: none;"> My Questions </a></button>
+            <button class="navbutton"> <a href="help.html" style="text-decoration: none;"> Help </a> </button>
+            <button class="navbutton"> <a href="logout.html" style="text-decoration: none;"> Log Out </a></button>
+
+            </section>
+        </header>
+        <br><br>
+
+        </head>
+
+    <section id="questionsmain">
+
         <h3>My Questions</h3>
         <div id="myQs">
+            <label for=myquestions>My Questions</label>
 
+        </div>
+        <div id="mysolutions">
+            <label for=mysolutions>My Solutions</label>
         </div>
     </section>
 

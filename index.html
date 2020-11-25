@@ -6,57 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
 
-</head>
+    </script>
+
 
 <body>
+    <div class=container>
 
-    <header id="header">
-        <img src="images/Logo2.jpg" alt="Logo" id="logo" width="10%" />
-        <section id="header-right">
-            <button class="navbutton" onclick="document.location='index.html'">Home</button>
-            <button class="navbutton" onclick="document.location='myquestions.html'">My Questions</button>
-            <button class="navbutton" onclick="document.location='help.html'">Help</button>
-            <button class="navbutton" onclick="document.location='logout.html'">Log out</button>
-        </section>
-    </header>
-    <br><br>
+        <header id="header">
+            <img src="images/Logo2.png" class="bordered image" alt="Logo" id="logo" width="10%" />
+            <section id="header-right">
+                <button class="navbutton"> <a href="index.html" style="text-decoration: none;"> Home </a> </button>
+                <button class="navbutton"> <a href="myquestions.html" style="text-decoration: none;"> My Questions
+                    </a></button>
+                <button class="navbutton"> <a href="help.html" style="text-decoration: none;"> Help </a> </button>
+                <button class="navbutton"> <a href="logout.html" style="text-decoration: none;"> Log Out </a></button>
 
-    <h3>Please fill out the form below: </h3>
-
-    <form class="form">
-        <label for="Department">Department*</label>
-        <select name="Department" required>
-            <option>Choose option</option>
-            <option>HR</option>
-            <option>Sales</option>
-            <option>Digital Consulting</option>
-            <option>Digital Workplace</option>
-            <option>Cybersecurity</option>
-            <option>Cloud Solutions</option>
-            <option>Analytics, AI and Automation</option>
-        </select> <br><br>
-        <label for="Topic">Topic*</label>
-        <select name="Topic" required><br>
-            <option>Choose option</option>
-            <option>IT Support</option>
-            <option>Equipment</option>
-            <option>Employee Onboarding</option>
-            <option>Security</option>
-            <option>Printing</option>
-            <option>Password</option>
-        </select>
+            </section>
+        </header>
         <br><br>
+        </head>
 
-        <button class="navbutton" onclick="document.location='queue.html'">GO</button>
+        <section id="main">
+            <form class="simpleform">
+
+                <h3>Please fill out the form below: </h3>
+
+                <div>
+
+                    <label for="Email"> Email address</label>
+                    <input name="Email" required type="email" placeholder="example@atos.net">
+                    </input> <br><br>
+
+                    <label for="Department">Department</label>
+                    <select name="Department" required>
+                        <option>Choose option</option>
+                        <option>HR</option>
+                        <option>Sales</option>
+                        <option>Digital Consulting</option>
+                        <option>Digital Workplace</option>
+                        <option>Cybersecurity</option>
+                        <option>Cloud Solutions</option>
+                        <option>Analytics, AI and Automation</option>
+
+                    </select> <br><br>
+
+                    <label for="Topic">Topic</label>
+                    <select name="Topic" required><br>
+                        <option>Choose option</option>
+                        <option>IT Support</option>
+                        <option>Equipment</option>
+                        <option>Employee Onboarding</option>
+                        <option>Security</option>
+                        <option>Printing</option>
+                        <option>Password</option>
+                </div>
+                </select>
+                <br><br>
+
+                <div>
+
+                    <!-- <br/>
+            <input type="submit" value="Go"> -->
+
+                    <button class="gobutton" onclick="document.location='queue.html'">GO</button>
+
+                </div>
 
 
-    </form>
-    <br><br>
 
-    <footer>
-        &copy; Atos Question Board
-    </footer>
+
+            </form>
+            <br><br>
+        </section>
+
+
+
+
+
+
+        <footer>
+            &copy; Atos Question Board, all rights reserved.
+        </footer>
+
+
+    </div>
 
 
 
