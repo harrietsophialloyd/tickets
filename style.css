@@ -1,0 +1,92 @@
+#main {
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 5px;
+    font-family: "Raleway", sans-serif
+}
+
+        div {
+            max-width: 100%;
+            padding: 10px;
+            border: 5px solid rgb(32, 17, 116);
+            margin: 0;
+        }
+
+        div img {
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 100px;
+            height: 90px;
+
+        }
+
+        .logo {
+            float: left;
+            color: black;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        /* Style the header with a grey background and some padding */
+        #header {
+            background-color: #f1f1f1;
+            padding: 20px 10px;
+            border: 5px solid rgb(32, 17, 116);
+            display: flex;
+        }
+
+        #header-right {
+            padding-left: 3%;
+            padding-top: 3%;
+        }
+
+        .responsive {
+            width: 100%;
+            height: auto;
+        }
+
+        .navbutton {
+            width: 150px;
+            border: 2px solid #ddd;
+            background-color: rgb(32, 17, 116);
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: lighter;
+            transition-duration: 0.4s;
+            color: #ffffff;
+        }
+
+
+        .navbutton:hover {
+            background-color: rgb(64, 63, 73);
+            color: blue;
+        }
+
+        select {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 3px solid rgb(32, 17, 116);
+            box-sizing: border-box;
+            border-radius: 4px;
+
+
+        }
+
+        .form {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        #myQs {
+            max-width: 50%;
+            margin: auto;
+        }

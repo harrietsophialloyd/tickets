@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header id="header">
+        <img src="images/Logo2.jpg" alt="Logo" id="logo" width="10%" />
+        <section id="header-right">
+            <button class="navbutton" onclick="document.location='index.html'">Home</button>
+            <button class="navbutton" onclick="document.location='myquestions.html'">My Questions</button>
+            <button class="navbutton" onclick="document.location='help.html'">Help</button>
+            <button class="navbutton" onclick="document.location='logout.html'">Log Out</button>
+        </section>
+    </header>
+    <br><br>
+
+    <h3>Please fill out the form below: </h3>
+
+    <form class="form">
+        <label for="Department">Department*</label>
+        <select name="Department" required>
+            <option>Choose option</option>
+            <option>HR</option>
+            <option>Sales</option>
+            <option>Digital Consulting</option>
+            <option>Digital Workplace</option>
+            <option>Cybersecurity</option>
+            <option>Cloud Solutions</option>
+            <option>Analytics, AI and Automation</option>
+        </select> <br><br>
+        <label for="Topic">Topic*</label>
+        <select name="Topic" required><br>
+            <option>Choose option</option>
+            <option>IT Support</option>
+            <option>Equipment</option>
+            <option>Employee Onboarding</option>
+            <option>Security</option>
+            <option>Printing</option>
+            <option>Password</option>
+        </select>
+        <br><br>
+
+        <button class="navbutton" onclick="document.location='queue.html'">GO</button>
+
+
+    </form>
+    <br><br>
+
+    <footer>
+        &copy; Atos Question Board
+    </footer>
+
+
+
+</body>
+
+</html>
