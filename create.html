@@ -8,25 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand navbar-light bg-light">
-        <img src="images/Logo2.png" alt="Logo" height="80" />
-        <div class="navbar" id="navbarSupportedContent"></div>
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Create a Ticket</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="myquestions.html">View My Tickets</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="help.html">Help</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
+  <div class="containerrr">
+
+    <header id="header">
+    <img src="images/Logo2.png" class="bordered image" alt="Logo" id="logo" width="10%" />
+    <section id="header-right">
+        <button class="navbutton"> <a href="index.html" style="text-decoration: none;"> Home </a> </button>
+        <button class="navbutton"> <a href="myquestions.html" style="text-decoration: none;"> My Questions </a></button>
+        <button class="navbutton"> <a href="help.html" style="text-decoration: none;"> Help </a> </button>
+        <button class="navbutton"> <a href="index.html" style="text-decoration: none;">Log out</a></button>
+    </section>
+    </header>
+<br></br>
+  <section id="main">
     <form class="standard-padding">
         <fieldset class="form-group">
         <legend>Having an issue? Let us know...</legend>
@@ -76,6 +70,8 @@
         <button type="submit" class="btn btn-primary">Raise a Ticket</button>
         </fieldset>
     </form>
+      
+  </section>
     <footer class="footer">
         <div class="container">
             <span class="text-muted">
@@ -83,5 +79,6 @@
             </span>
         </div>
     </footer>
+  </div>
 </body>
 </html>
