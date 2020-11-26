@@ -38,7 +38,7 @@ In addition to what has been set out in the brief, we included the following:
 ### Our Approach
 To achieve this, we produced a web-hosted ticket application that must allow Atos employees to do the following:
 
-
+![cipipeline](images/Edge-Computing.jpg)
 
 
 
