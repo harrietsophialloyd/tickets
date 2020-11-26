@@ -26,26 +26,17 @@ The application is a Spring Boot Help Queue application with full CRUD funct
 
 ### Additional Requirements
 In addition to what has been set out in the brief, we included the following: 
-              •	A fully functioning Help Queue web application deployed in an GCP virtual machine.
-              •	Full documentation of the system, including project development, risk assessment, component level diagrams and installation instructions.
-              •	A simple automated CI system, also with full documentation discussing how the tools were utilised.
-              •	A 30 minute presentation that demonstrates:
-                                                  o	our team's project management approach (team roles, sprints, product backlog, priorities, etc.)
-                                                  o	the functioning application and the features that were implemented
-                                                  o	the functioning CI pipeline with a fully automated rolling update
-
-
-
-
-
-
-
-
-
-
-
-
-
+* A fully functioning Help Queue web application deployed in an GCP virtual machine.
+* Full documentation of the system, including project development, risk assessment, component level diagrams and installation instructions.
+* A simple automated CI system, also with full documentation discussing how the tools were utilised.
+* A 30 minute presentation that demonstrates:
+   * our team's project management approach (team roles, sprints, product backlog, priorities, etc.)
+   * the functioning application and the features that were implemented
+   * the functioning CI pipeline with a fully automated rolling update   
+   
+   
+   
+   
 
 
 
