@@ -5,35 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Questions page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-
-    <header id="header">
-        <img src="images/Logo2.jpg" alt="Logo" id="logo" width="10%" />
-        <section id="header-right">
-            <button class="navbutton" onclick="document.location='index.html'">Home</button>
-            <button class="navbutton" onclick="document.location='myquestions.html'">My Questions</button>
-            <button class="navbutton" onclick="document.location='help.html'">Help</button>
-            <button class="navbutton" onclick="document.location='logout.html'">Log Out</button>
-        </section>
-    </header>
-
-    <section>
-        <h3>My Questions</h3>
-        <div id="myQs">
-
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <img src="images/Logo2.png" alt="Logo" height="80" />
+        <div class="navbar" id="navbarSupportedContent"></div>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="create.html">Create a Ticket</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">View My Tickets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="help.html">Help</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <h3 class="standard-padding">My Tickets</h3>
+    <section class="standard-padding">
+        <div class="card-grid">
+            <h4 class="grid-title-one">Active Tickets</h4>
+        <div class="card grid-active">
+            <div class="card-body card-padding">
+              <h5 class="card-title">Issue Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Timestamp</h6>
+              <p class="card-text">Here is where the issue description would go.</p>
+              <a href="#" class="card-link">Edit</a>
+              <a href="#" class="card-link">Upvote</a>
+            </div>
+        </div>
+        <h4 class="grid-title-two">Closed Tickets</h4>
+        <div class="card grid-closed">
+            <div class="card-body card-padding">
+              <h5 class="card-title">Issue Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Timestamp</h6>
+              <p class="card-text">Here is where the issue description would go.</p>
+              <a href="#" class="card-link">Edit</a>
+              <a href="#" class="card-link">Upvote</a>
+            </div>
+        </div>
         </div>
     </section>
-
-
-
-
-
-
-    <footer>
-        &copy; Atos Question Board
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">
+                &copy; Atos Question Board
+            </span>
+        </div>
     </footer>
 </body>

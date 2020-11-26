@@ -5,22 +5,16 @@
     font-family: "Raleway", sans-serif
 }
 
-        div {
-            max-width: 100%;
-            padding: 10px;
-            border: 5px solid rgb(32, 17, 116);
-            margin: 0;
-        }
-
         div img {
             border: 2px solid #ddd;
             border-radius: 4px;
             padding: 5px;
             width: 100px;
             height: 90px;
+            color: white;
+
 
         }
-
         .logo {
             float: left;
             color: black;
@@ -31,14 +25,15 @@
         }
 
         /* Style the header with a grey background and some padding */
-        #header {
+        .header {
             background-color: #f1f1f1;
             padding: 20px 10px;
             border: 5px solid rgb(32, 17, 116);
             display: flex;
+            color: white;
         }
 
-        #header-right {
+        .header-right {
             padding-left: 3%;
             padding-top: 3%;
         }
@@ -57,7 +52,7 @@
             font-size: 15px;
             font-weight: lighter;
             transition-duration: 0.4s;
-            color: #ffffff;
+            color: white;
         }
 
 
@@ -89,4 +84,58 @@
         #myQs {
             max-width: 50%;
             margin: auto;
+        }
+
+        .create {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        .standard-padding {
+            padding: 50px 50px 40px 50px;
+        }
+
+        .button-outline {
+            border:1px solid rgb(32, 17, 116);
+        }
+
+        .card-padding {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: auto 30% auto 30% auto;
+            grid-template-rows: 20% 78% 2%;
+        }
+
+        .grid-title-one {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+
+        .grid-title-two {
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+
+        .grid-active {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 2;
+        }
+
+        .grid-closed {
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 2;
         }

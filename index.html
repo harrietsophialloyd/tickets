@@ -11,20 +11,22 @@
 
 <body>
 
-    <header id="header">
+    <header id="header"> 
+        <!-- use class instead of id -->
         <img src="images/Logo2.jpg" alt="Logo" id="logo" width="10%" />
         <section id="header-right">
-            <button class="navbutton" onclick="document.location='index.html'">Home</button>
-            <button class="navbutton" onclick="document.location='myquestions.html'">My Questions</button>
-            <button class="navbutton" onclick="document.location='help.html'">Help</button>
-            <button class="navbutton" onclick="document.location='logout.html'">Log out</button>
+            <button class="navbutton"> <a href="index.html"> Home </a> </button>
+            <button class="navbutton"> <a href="myquestions.html">My Questions </a></button>
+            <button class="navbutton"> <a href="help.html">Help </a> </button>
+            <button class="navbutton"> <a href="logout.html"> Log Out </a></button>
         </section>
     </header>
     <br><br>
 
     <h3>Please fill out the form below: </h3>
 
-    <form class="form">
+    <form class="form"> 
+        <!-- use fieldsets and legends -->
         <label for="Department">Department*</label>
         <select name="Department" required>
             <option>Choose option</option>
