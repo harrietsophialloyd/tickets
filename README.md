@@ -81,6 +81,27 @@ The board was created in a way that allowed tickets to move from the Product Bac
 
 *	*Completion*: Any ticket that has passed QA is moved into completion.
 
+### Risk Assessment
+
+The risk assessment for our project was located on a shared Document via OneDrive so we all had access to it.
+Here is a screenshot of it:
+
+![risk](images/riskassessment.png)
+
+### Testing
+
+### Front-End Design
+To begin with the design, we initially created a wireframe from the use case diagram to lay out the content for each page and understand its functionality, considering the user needs and user journey.
+
+
+![wireframe1](images/wireframe1.png)
+![wireframe2](images/wireframe2.png)
+![wireframe3](images/wireframe3.png)
+
+Following on from the Wireframe, we created a rudimentary page structure using a simple HTML structure in Visual Studio Code, this allowed us to see preliminary design and content of each page and to provide a foundation for further web application design.
+
+
+
 
 
 
