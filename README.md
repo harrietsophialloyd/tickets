@@ -100,13 +100,17 @@ To begin with the design, we initially created a wireframe from the use case dia
 
 Following on from the Wireframe, we created a rudimentary page structure using a simple HTML structure in Visual Studio Code, this allowed us to see preliminary design and content of each page and to provide a foundation for further web application design.
 
+#### Iteration 1
+
 ![wireframe4](images/helppage1.JPG)
 
 The image above shows the preliminary structural design of the landing page.
 
+#### Iteration 2
+
 ![wireframe5](images/homepage2.png)
 
-The image above shows the evolution of the front-end design of the landing page.  
+The image above shows the evolution of the front-end design of the landing page. We started using the sheet style lanuage *Cascading Style Sheets* (CSS) to describe our desired presentation of the web application written in HTML.
 
 
 
