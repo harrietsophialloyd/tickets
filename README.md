@@ -14,6 +14,7 @@
 * [Risk Assessment](#risk-assessment)
 * [Testing](#testing)
 * [Front-End Design](#front-end-design)
+* [Connecting the Front-End & the Back-End] (#frontend-to-backend)
 * [Known Issues](#known-issues)
 * [Future Improvements](#future-improvements)
 * [Authors](#authors)
@@ -60,7 +61,7 @@ The code development is split into Front End and Back End Development to ensure 
 The design of the Jenkins pipeline job means that if a previous build stage fails, the entirety of the job will fail, providing developers detailed information about where the error has occurred.
 
 
-### Project Tracking
+## Project Tracking
 As a group we used Trello to track the progress of the project and for an agile way of working.
 You can find the link to this board here: https://trello.com/b/khec599K/agile-sprint-board 
 
@@ -81,16 +82,16 @@ The board was created in a way that allowed tickets to move from the Product Bac
 
 *	*Completion*: Any ticket that has passed QA is moved into completion.
 
-### Risk Assessment
+## Risk Assessment
 
 The risk assessment for our project was located on a shared Document via OneDrive so we all had access to it.
 Here is a screenshot of it:
 
 ![risk](images/riskassessment.png)
 
-### Testing
+## Testing
 
-### Front-End Design
+## Front-End Design
 To begin with the design, we initially created a wireframe from the use case diagram to lay out the content for each page and understand its functionality, considering the user needs and user journey.
 
 
@@ -111,6 +112,8 @@ The image above shows the preliminary structural design of the landing page.
 ![wireframe5](images/homepage2.png)
 
 The image above shows the evolution of the front-end design of the landing page. We started using the sheet style lanuage *Cascading Style Sheets* (CSS) to describe our desired presentation of the web application written in HTML.
+
+## Connecting the Front-End & the Back-End
 
 
 
