@@ -6,7 +6,7 @@
 ## Contents
 * [Brief](#brief)
    * [Additional Requirements](#additional-requirements)
-   * [My Approach](#my-approach)
+   * [Our Approach](#our-approach)
 * [Architecture](#architecture)
    * [Database Structure](#database-structure)
    * [CI Pipeline](#ci-pipeline)
@@ -33,8 +33,10 @@ In addition to what has been set out in the brief, we included the following:
    * our team's project management approach (team roles, sprints, product backlog, priorities, etc.)
    * the functioning application and the features that were implemented
    * the functioning CI pipeline with a fully automated rolling update   
-   
-   
+
+
+### Our Approach
+To achieve this, we produced a web-hosted ticket application that must allow Atos employees to do the following:
    
    
 
