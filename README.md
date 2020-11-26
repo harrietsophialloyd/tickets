@@ -14,7 +14,7 @@
 * [Risk Assessment](#risk-assessment)
 * [Testing](#testing)
 * [Front-End Design](#front-end-design)
-* [Connecting the Front-End & the Back-End](#frontend-to-backend)
+* [Connecting the Front-End & the Back-End](#connecting-the-front-end--the-back-end)
 * [Known Issues](#known-issues)
 * [Future Improvements](#future-improvements)
 * [Authors](#authors)
