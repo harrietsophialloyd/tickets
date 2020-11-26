@@ -50,22 +50,36 @@ This image shows our entity relationship diagram (ERD) showing the major entitie
 
 ### CI Pipeline
 
-![database](images/Ci+pipeline.PNG)
-
-The continuous integration (CI) pipeline is shows the associated frameworks and services related to them. Automated pipelines allows for rapid and simple development-to-deployment by removing manual errors and providing standardised feedback loops to developers enabling faster product iterations.
+The continuous integration (CI) pipeline shows the associated frameworks and services related to them. Automated pipelines allows for rapid and simple development-to-deployment by removing manual errors and providing standardised feedback loops to developers enabling faster product iterations.
 By using a local machine and pushing code to GitHub a new code will automatically pushed to Jenkins with a build trigger via Webhook and automatically installed on the Google Cloud Platform (GCP) for dynamic testing. 
+
+![cipipline](images/Ci+pipeline.PNG)
+
+
 The code development is split into Front End and Back End Development to ensure an DevOps way of working with the Front End using HTML/CSS/JS and the Back End using Java and Spring. The data is sent between the front and back end development to ensure information is continuously passed between the two teams, so that the method of working is iterative. 
 The design of the Jenkins pipeline job means that if a previous build stage fails, the entirety of the job will fail, providing developers detailed information about where the error has occurred.
 
 
+### Project Tracking
+As a group we used Trello to track the progress of the project and for an agile way of working.
+You can find the link to this board here: https://trello.com/b/khec599K/agile-sprint-board 
 
+![Trello](images/Trello.PNG)
 
+The board was created in a way that allowed tickets to move from the Product Backlog (left) to the point of Completion (right) representing its progress. We assigned individuals to tickets and teams aligned by their skillsets and knowledge base, often using peer programming to help upskill other team members.
 
+*	*Product Backlog*: This is populated with prioritised list of work for the development team that is derived from the specification and its requirements. The product backlog is the single authoritative source for things that our team will work on. The most valuable items are shown at the top of the backlog so the team knows what must be delivered first.
 
+*	*Sprint Backlog*: This is populated with tasks from the product backlog identified by the scrum master to be completed within the sprint. These tickets are in the form of user stories.
 
+*	*User Stories*: These are an informal, general explanation of a software feature written from the perspective of the end user. This ensures that every element of the web application we designed is focused on the user experience.
+ ** As a [description of user], I want [functionality], So that [benefit].
+ 
+*	*In Progress*: For any ticket that a team member has worked/spent time on this is then moved to the ‘in progress’ section of the Trello board.
 
+*	*Quality Assurance (QA)*: Once the team member considers the ticket to be finished (to the expected specification) they move the ticket to QA. In QA the functionality of the features will be tested against the acceptance criteria.
 
-
+*	*Completion*: Any ticket that has passed QA is moved into completion.
 
 
 
