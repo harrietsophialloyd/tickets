@@ -38,14 +38,14 @@ In addition to what has been set out in the brief, we included the following:
 ### Our Approach
 To achieve this, we produced a web-hosted ticket application that must allow Atos employees to do the following:
 
-![usercase](images/usecasediagramv3..PNG)
+![usercase](images/usecasediagramv.PNG)
 
 
 ## Architecture
 ### Database Structure
 This image shows our entity relationship diagram (ERD) showing the major entities within the system scope, and the inter-relationships among these entities. 
 
-![database](images/erdv.2.PNG)
+![database](images/erdv2.PNG)
 
 
 ### CI Pipeline
