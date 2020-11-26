@@ -38,10 +38,24 @@ In addition to what has been set out in the brief, we included the following:
 ### Our Approach
 To achieve this, we produced a web-hosted ticket application that must allow Atos employees to do the following:
 
-![cipipeline](images/Edge-Computing.jpg)
+![usercase](images/use case diagram v3..PNG)
 
 
+## Architecture
+### Database Structure
+This image shows our entity relationship diagram (ERD) showing the major entities within the system scope, and the inter-relationships among these entities. 
 
+![database](images/erd v.2.PNG)
+
+
+### CI Pipeline
+
+![database](images/Ci+pipeline.PNG)
+
+The continuous integration (CI) pipeline is shows the associated frameworks and services related to them. Automated pipelines allows for rapid and simple development-to-deployment by removing manual errors and providing standardised feedback loops to developers enabling faster product iterations.
+By using a local machine and pushing code to GitHub a new code will automatically pushed to Jenkins with a build trigger via Webhook and automatically installed on the Google Cloud Platform (GCP) for dynamic testing. 
+The code development is split into Front End and Back End Development to ensure an DevOps way of working with the Front End using HTML/CSS/JS and the Back End using Java and Spring. The data is sent between the front and back end development to ensure information is continuously passed between the two teams, so that the method of working is iterative. 
+The design of the Jenkins pipeline job means that if a previous build stage fails, the entirety of the job will fail, providing developers detailed information about where the error has occurred.
 
 
 
