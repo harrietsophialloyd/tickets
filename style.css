@@ -139,3 +139,16 @@
             grid-row-start: 2;
             grid-row-end: 2;
         }
+
+        .ScrollStyle{
+            
+            max-height: 390px;
+            overflow-y: scroll;
+        }
+
+        td div{
+
+                border: 2px solid rgb(32, 17, 116);
+
+        }
+      

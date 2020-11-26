@@ -7,25 +7,109 @@
     <title>Help page</title>
     <link rel="stylesheet" href="style.css">
 
+
+
+
 </head>
 
-<nav class="sidebar" id="helpside bar">
+<!-- <nav class="sidebar" id="helpside bar">
     <div class="container">
-        <img src="Logo2.jpg" style="width:45%;" class="round"><br><br>
+        <img src="images/Logo2.jpg" style="width:45%;" class="round"><br><br>
         <h4></h4>
     </div>
-</nav>
+</nav> -->
 
 <body>
 
-    <div>
-        <img src="images/Logo2.jpg" alt="Logo" />
-        <button class="navbutton" onclick="document.location='index.html'">Home</button>
-        <button class="navbutton" onclick="document.location='myquestions.html'">MyQuestions</button>
-        <button class="navbutton" onclick="document.location='help.html'">Help</button>
-        <button class="navbutton" onclick="document.location='logout.html'">Logout</button>
-    </div>
+    <header id="header">
+        <img src="images/Logo2.png" alt="Logo" id="logo" width="10%" />
+        <section id="header-right">
 
+            <a href="index.html"><button class="navbutton">Home</button></a>
+            <a href="myquestions.html"><button class="navbutton">My Questions</button></a>
+            <a href="help.html"><button class="navbutton">Help</button></a>
+            <button class="navbutton" onclick="self.close()">Log out</button>
+        </section>
+    </header>
+
+
+
+    <ul class="ScrollStyle">
+        <table style="margin:0% 15%;">
+            <tr>
+                <td>
+                    <h1>FAQ</h1>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                    <div>
+                        <h2>How do I Create a Ticket?</h2>
+                        <p> <br> <br> You will need to lauch the application select your department and the category
+                            your issues comes under
+                            and click the go button.
+
+                        </p>
+                    </div>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                    <div>
+                        <h2>How long is the response time?</h2>
+                        <p> <br> <br> We will try to respond and provide an update as soon as possible. You will also be
+                            able to see whos got your ticket.</p>
+                    </div>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                    <div>
+                        <h2>Can I track my tickets created?</h2>
+                        <p> <br> <br> You will be able to track your submitted questions under the My Questions Tab.
+                            Also you will be able to view all of the questions asked by other employees to help you
+                            resolve your issue.</p>
+                    </div>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                    <div>
+                        <h2>Can my ticket be esculated if the team can not resolve it?</h2>
+                        <p> <br> <br> At the moment you will not be able to esculate your ticket but this is a feature
+                            which will be coming soon.</p>
+                    </div>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <div>
+                        <h2>Can I create a urgent ticket?</h2>
+                        <p> <br> <br> At the moment you will not be able to set priority to a ticket but this will be a
+                            feature which will be coming soon.</p>
+                    </div>
+
+                </td>
+            </tr>
+
+        </table>
+    </ul>
+    <br><br>
+
+    <hr>
 
     <footer>
         &copy; Atos Question Board
