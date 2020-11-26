@@ -4,20 +4,15 @@
     
 }
 
-.containerrr {
-    max-width: 90%;
-    margin: auto;
-    
-}
 
 #main{
     margin: 5px;
     padding: 5px;
     border: 5px;
     font-family: "Raleway", sans-serif;
-    border: solid 1px;
+    border: solid 1px #a59f9f;
     border-radius: 5px;
-    color: #202020;
+    color:#202020;
     margin: 5px 0px;
     padding: 5px;
     background-image: url(./images/atos-logo-blue.jpg) bottom center no-repeat;
@@ -45,12 +40,15 @@
             border: 1px solid rgb(176, 175, 184);
             border-radius: 10px;
             display: flex;
+            flex-direction: row;
+            align-items: center;
             background-image: url(./images/Edge-Computing.jpg);
         }
 
         .header-right {
             padding-left: 3%;
             padding-top: 3%;
+            vertical-align: middle;
         }
 
 
@@ -79,8 +77,8 @@
         }
 
         .navbutton {
-            width: 150px;
-            border: 2px solid #ddd;
+            width: 120px;
+            border: 1px solid #ddd;
             background-color: rgb(98, 145, 214);
             padding: 12px;
             border-radius: 10px;
@@ -88,11 +86,17 @@
             font-weight: normal;
             transition-duration: 0.4s;
             color: #f3ebeb;
+            align-items: center;
+            content: "";
+            display: inline-block;
+            height: 30%;
+            vertical-align: middle
+
 
         }
 
         .gobutton {
-            width: 150px;
+            width: 110px;
             border: 2px solid #ddd;
             background-color: rgb(31, 185, 39);
             padding: 12px;
@@ -114,7 +118,7 @@
             padding: 12px 20px;
             margin: 8px 0;
             display: inline-block;
-            border: 3px solid rgb(98, 145, 214);
+            border: 1px solid rgb(98, 145, 214);
             box-sizing: border-box;
             border-radius: 4px;
             vertical-align: middle;
@@ -155,7 +159,7 @@
         }
 
         .standard-padding {
-            padding: 50px 50px 40px 50px;
+            padding: 20px 50px 20px 50px;
         }
 
         .button-outline {
@@ -210,7 +214,8 @@
 
         td div{
 
-                border: 2px solid rgb(32, 17, 116);
+            border: 2px solid rgb(204, 202, 219);
+            width: 80%;
 
         }
       
@@ -221,28 +226,6 @@
         footer {
 
             text-align: end;
-            font-weight: bold;
+            color: #6c757d;
 
         }
-
-       <!-- /*my question page*/
-
-        #myQs {
-
-            border: 2px;
-            border-style: solid;
-            border-color: rgb(98, 145, 214);
-            max-width: 1000px;
-            padding: 2px;
-            display: inline-block;
-        }
-
-        #mysolutions {
-            border: 2px;
-            border-style: solid;
-            border-color: rgb(98, 145, 214);
-            max-width: 1000px;
-            padding: 2px;
-            display: inline-block;
-        } -->
-
