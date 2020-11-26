@@ -100,9 +100,9 @@ To begin with the design, we initially created a wireframe from the use case dia
 
 Following on from the Wireframe, we created a rudimentary page structure using a simple HTML structure in Visual Studio Code, this allowed us to see preliminary design and content of each page and to provide a foundation for further web application design.
 
-![wireframe3](helplpage1.JPG)
+![wireframe3](images/helplpage1.JPG)
 
-![wireframe3](helplpage2.JPG)
+![wireframe3](images/helplpage2.JPG)
 
 
 
