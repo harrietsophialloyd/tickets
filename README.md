@@ -102,9 +102,11 @@ Following on from the Wireframe, we created a rudimentary page structure using a
 
 ![wireframe4](images/helppage1.JPG)
 
-![wireframe5](images/helppage2.JPG)
+The image above shows the preliminary structural design of the landing page.
 
+![wireframe5](images/homepage2.png)
 
+The image above shows the evolution of the front-end design of the landing page.  
 
 
 
