@@ -114,42 +114,15 @@ The image above shows the preliminary structural design of the landing page.
 The image above shows the evolution of the front-end design of the landing page. We started using the sheet style lanuage *Cascading Style Sheets* (CSS) to describe our desired presentation of the web application written in HTML.
 
 ## Connecting the Front-End & the Back-End
+xxxxx
 
 
+## Known Issues
+xxxxx
 
 
+## Further Improvements
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Authors
+Alfred Joarder-White, Nickson Alemao, Atefeh Eslahi, Sam Plackett, Rajan Borkhataria, Joseph Nelson, Harriet Lloyd & Daniel Wu.
