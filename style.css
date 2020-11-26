@@ -1,4 +1,3 @@
-
 .container {
     max-width: 90%;
     margin: auto;
@@ -26,6 +25,7 @@
             height: 140px;
         }
 
+        }
         .logo {
             float: left;
             color: black;
@@ -35,7 +35,6 @@
             border-radius: 4px;
         }
 
-        /* Style the header with a grey background and some padding */
         #header {
             background-color: #cccccc;
             padding: 10px 10px;
@@ -45,7 +44,7 @@
             background-image: url(./images/Edge-Computing.jpg);
         }
 
-        #header-right {
+        .header-right {
             padding-left: 3%;
             padding-top: 3%;
         }
@@ -98,7 +97,6 @@
             font-weight: lighter;
             transition-duration: 0.4s;
             color: #ffffff;
-
         }
 
 
@@ -146,7 +144,72 @@
             max-width: 50%;
             margin: auto;
         }
+        .create {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
 
+        .standard-padding {
+            padding: 50px 50px 40px 50px;
+        }
+
+        .button-outline {
+            border:1px solid rgb(32, 17, 116);
+        }
+
+        .card-padding {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 30px;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: auto 30% auto 30% auto;
+            grid-template-rows: 20% 78% 2%;
+        }
+
+        .grid-title-one {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+
+        .grid-title-two {
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+
+        .grid-active {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 2;
+        }
+
+        .grid-closed {
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 2;
+        }
+
+        .ScrollStyle{
+            
+            max-height: 390px;
+            overflow-y: scroll;
+        }
+
+        td div{
+
+                border: 2px solid rgb(32, 17, 116);
+
+        }
+      
         .bordered-image {
             border: solid
         }
@@ -158,7 +221,7 @@
 
         }
 
-        /*my question page*/
+       <!-- /*my question page*/
 
         #myQs {
 
@@ -177,6 +240,5 @@
             max-width: 1000px;
             padding: 2px;
             display: inline-block;
-        }
+        } -->
 
-        
